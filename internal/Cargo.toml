@@ -13,7 +13,7 @@ anyhow = { workspace = true }
 log = { workspace = true }
 regex = { workspace = true }
 
-anstyle = { workspace = true, optional = true }
+# anstyle = { workspace = true, optional = true }
 bitflags = { workspace = true, optional = true }
 cargo-util = { workspace = true, optional = true }
 cargo_metadata = { workspace = true, optional = true }
