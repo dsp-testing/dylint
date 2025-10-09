@@ -1,11 +1,11 @@
 version: 2
 updates:
-  - package-ecosystem: github-actions
-    directory: /
-    schedule:
-      interval: weekly
-      day: sunday
-      time: "03:00"
+  # - package-ecosystem: github-actions
+  #   directory: /
+  #   schedule:
+  #     interval: weekly
+  #     day: sunday
+  #     time: "03:00"
 
   - package-ecosystem: cargo
     directories:
@@ -17,63 +17,63 @@ updates:
     allow:
       - dependency-type: direct
 
-  - package-ecosystem: cargo
-    directories:
-      - /examples/experimental/*
-    schedule:
-      interval: weekly
-      day: sunday
-      time: "03:00"
-    allow:
-      - dependency-type: direct
+  # - package-ecosystem: cargo
+  #   directories:
+  #     - /examples/experimental/*
+  #   schedule:
+  #     interval: weekly
+  #     day: sunday
+  #     time: "03:00"
+  #   allow:
+  #     - dependency-type: direct
 
-  - package-ecosystem: cargo
-    directories:
-      - /examples/general
-    schedule:
-      interval: weekly
-      day: sunday
-      time: "03:00"
-    allow:
-      - dependency-type: direct
+  # - package-ecosystem: cargo
+  #   directories:
+  #     - /examples/general
+  #   schedule:
+  #     interval: weekly
+  #     day: sunday
+  #     time: "03:00"
+  #   allow:
+  #     - dependency-type: direct
 
-  - package-ecosystem: cargo
-    directories:
-      - /examples/restriction
-    schedule:
-      interval: weekly
-      day: sunday
-      time: "03:00"
-    allow:
-      - dependency-type: direct
+  # - package-ecosystem: cargo
+  #   directories:
+  #     - /examples/restriction
+  #   schedule:
+  #     interval: weekly
+  #     day: sunday
+  #     time: "03:00"
+  #   allow:
+  #     - dependency-type: direct
 
-  - package-ecosystem: cargo
-    directories:
-      - /examples/supplementary
-    schedule:
-      interval: weekly
-      day: sunday
-      time: "03:00"
-    allow:
-      - dependency-type: direct
+  # - package-ecosystem: cargo
+  #   directories:
+  #     - /examples/supplementary
+  #   schedule:
+  #     interval: weekly
+  #     day: sunday
+  #     time: "03:00"
+  #   allow:
+  #     - dependency-type: direct
 
-  - package-ecosystem: cargo
-    directories:
-      - /examples/testing
-    schedule:
-      interval: weekly
-      day: sunday
-      time: "03:00"
-    allow:
-      - dependency-type: direct
+  # - package-ecosystem: cargo
+  #   directories:
+  #     - /examples/testing
+  #   schedule:
+  #     interval: weekly
+  #     day: sunday
+  #     time: "03:00"
+  #   allow:
+  #     - dependency-type: direct
 
-  - package-ecosystem: cargo
-    directories:
-      - /utils/linting
-    schedule:
-      interval: weekly
-      day: sunday
-      time: "03:00"
+  # - package-ecosystem: cargo
+  #   directories:
+  #     - /utils/linting
+  #   schedule:
+  #     interval: weekly
+  #     day: sunday
+  #     time: "03:00"
     allow:
       - dependency-type: direct
 
