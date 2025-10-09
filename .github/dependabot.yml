@@ -9,16 +9,6 @@ updates:
 
   - package-ecosystem: cargo
     directories:
-      - /
-    schedule:
-      interval: weekly
-      day: sunday
-      time: "03:00"
-    allow:
-      - dependency-type: direct
-
-  - package-ecosystem: cargo
-    directories:
       - /driver/
     schedule:
       interval: weekly
